@@ -1,0 +1,106 @@
+body {
+background-image: url(images/chasse.jpg) ;
+background-size: 1200px 857px;
+background-position: 50% 50%;
+background-attachment: fixed;
+font-size:18px;
+font-family: 'Lora', serif;
+}
+
+
+}
+h1,h3{font-family: Courier}
+h1{
+    color: #413C69;
+	font-weight:500;
+	letter-spacing: 10px;
+	font-size: 30px;
+	text-transform: uppercase;
+
+}
+
+h2{
+	font-family: Courier;
+	color: #5c69a7;
+	font-size: 24px;
+	font-weight:bold;
+}
+a{
+	text-decoration: none;
+	color:#4A47A3;
+	font-weight: bold;
+}
+a:hover{
+	color: #faf678;
+}
+
+/*Custom design with class (99% fo your design)*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+.container{
+	width: 900px;
+    margin: 40px auto;
+}
+
+.card-white{
+	background-color: rgba(237,239,246,0.5);
+	border-image: auto auto;
+    width: 900px;
+    box-shadow: 0px 10px 30px black;
+    border-radius: 4px;
+    padding: 40px;
+    text-align: center;
+    margin: 20px auto;
+    height: auto;
+
+}
+
+#img-first{
+	width:250px;
+	height:200px;
+}
+
+div{
+  border-radius: 4px;
+  color: black;
+  margin: 40px;
+  padding: 10px;
+  border: 1px #8E4162;
+  box-shadow: 2px 2px 3PX white
+  border: 1px #8E4162;
+
+}
+
+.btn-blue {
+	background-color: rgb(192 192 192);
+	color: rgb(100, 115, 195);
+	padding: 15px 20px;
+	border-radius: 4px;
+	font-size: 20px;
+}
+
+.btn-blue: hover {
+	background-color: white;
+	transform: 0,4s ease;
+	font-size: 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.list-inline > li {
+  display: inline;
+
+
+
+
